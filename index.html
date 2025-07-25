@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MARTINOS-DEV - Développeur web full-stack spécialisé en Python, JavaScript et frameworks modernes. Solutions web sur mesure.">
+    <meta name="keywords" content="développeur web, full-stack, Python, JavaScript, React, Vue.js, Flask, Django">
+    <meta name="author" content="MARTINOS-DEV">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="MARTINOS-DEV - Développeur Web Full-Stack">
+    <meta property="og:description" content="Solutions web modernes et réactives par un développeur passionné">
+    <meta property="og:image" content="./logo.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="MARTINOS-DEV - Développeur Web">
+    <meta property="twitter:description" content="Solutions web modernes et réactives par un développeur passionné">
+    <meta property="twitter:image" content="./logo.jpg">
+    
+    <title>MARTINOS-DEV</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./photo.avif" as="image" type="image/avif">
+    <link rel="preload" href="./logo.jpg" as="image" type="image/jpeg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="./logo.jpg">
+    <link rel="apple-touch-icon" href="./logo.jpg">
+    <!-- icon de l'onglet -->
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Loader moderne et stylé -->
+    <div class="modern-loader" role="dialog" aria-label="Chargement de la page" aria-live="polite">
+        <div class="loader-content">
+            <div class="logo-loader">
+                <img src="./logo.jpg" alt="Logo MARTINOS-DEV" class="loader-logo" width="80" height="80">
+            </div>
+            <h1 class="brand-name" aria-label="MARTINOS-DEV">MARTINOS-DEV</h1>
+            <div class="loading-bar" role="progressbar" aria-label="Progression du chargement">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Chargement en cours...</p>
+        </div>
+    </div>
+
+    <!-- Navigation principale -->
+    <header class="dual-logo-header" role="banner">
+        <div class="logo-left">
+            <div class="logo-container">
+                <img src="./logo.jpg" alt="Logo MARTINOS-DEV" class="logo" width="50" height="50">
+                <span class="logo-text">MARTINOS-DEV</span>
+            </div>
+        </div>
+        
+        <nav role="navigation" aria-label="Navigation principale">
+            <ul>
+                <li><a href="#home" aria-label="Aller à la section Accueil">Accueil</a></li>
+                <li><a href="#about" aria-label="Aller à la section À propos">À propos</a></li>
+                <li><a href="#articles" aria-label="Aller à la section Articles">Articles</a></li>
+                <li><a href="#contact" aria-label="Aller à la section Contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="logo-right">
+            <div class="logo-container">
+                <span class="logo-text">MARTINOS-DEV</span>
+                <img src="./logo.jpg" alt="Logo MARTINOS-DEV" class="logo" width="50" height="50">
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main role="main">
+        <section id="home" aria-labelledby="home-title">
+            <h1 id="home-title">Bienvenue sur le site de MARTINOS-DEV</h1>
+            <p>Développeur web passionné, spécialisé dans la création de sites web modernes et réactifs.</p>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">À propos de moi</h2>
+            <div class="about-content">
+                <img src="logo3.jpg" alt="Photo de MARTINOS" class="profile-pic" width="150" height="150">
+                <div class="bio">
+                    <h3>MARTINOS</h3>
+                    <p>Je suis un développeur full-stack avec une expertise en Python, JavaScript, et les frameworks modernes. Je crée des solutions web sur mesure pour répondre aux besoins de mes clients. Ma mission est de transformer vos idées en réalité digitale.</p>
+                    <p><strong>Compétences :</strong> HTML, CSS, JavaScript, Python, Flask, Django, React, Vue.js.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles" aria-labelledby="articles-title">
+            <h2 id="articles-title">Mes derniers articles</h2>
+            <div class="articles-container" role="region" aria-label="Liste des articles">
+                <!-- Les articles seront chargés ici dynamiquement -->
+                <p class="no-articles">Articles à venir prochainement...</p>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contactez-moi</h2>
+            <p>Pour toute commande ou question, n'hésitez pas à me contacter via les moyens ci-dessous ou en utilisant le formulaire.</p>
+            
+            <div class="contact-info" role="region" aria-label="Informations de contact">
+                <p>📧 Email: <a href="mailto:komimawulolohoudoga@gmail.com" aria-label="Envoyer un email à MARTINOS-DEV">komimawulolohoudoga@gmail.com</a></p>
+                <p>📱 WhatsApp / Télégramme / Appel: <a href="tel:+22898131393" aria-label="Appeler MARTINOS-DEV">+228 98 13 13 93</a></p>
+            </div>
+            
+            <!-- Formulaire de contact WhatsApp -->
+            <div class="whatsapp-contact-form">
+                <h3>💬 Envoyez-moi un message WhatsApp</h3>
+                <p>Remplissez le formulaire ci-dessous et cliquez sur "Envoyer sur WhatsApp" pour m'envoyer votre message directement.</p>
+                
+                <form id="whatsapp-form" role="form" aria-label="Formulaire de contact WhatsApp">
+                    <div class="form-group">
+                        <label for="name">Nom <span aria-label="requis">*</span>:</label>
+                        <input type="text" id="name" name="name" required aria-describedby="name-error" autocomplete="name" placeholder="Votre nom complet">
+                        <span id="name-error" class="error-message" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email <span aria-label="requis">*</span>:</label>
+                        <input type="email" id="email" name="email" required aria-describedby="email-error" autocomplete="email" placeholder="votre.email@exemple.com">
+                        <span id="email-error" class="error-message" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Numéro de téléphone:</label>
+                        <input type="tel" id="phone" name="phone" aria-describedby="phone-help" autocomplete="tel" placeholder="+228 XX XX XX XX">
+                        <small id="phone-help">Format recommandé: +228 XX XX XX XX (optionnel)</small>
+                        <span id="phone-error" class="error-message" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Sujet:</label>
+                        <input type="text" id="subject" name="subject" aria-describedby="subject-help" placeholder="Sujet de votre message (optionnel)">
+                        <small id="subject-help">Ex: Demande de devis, Question technique, etc.</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message <span aria-label="requis">*</span>:</label>
+                        <textarea id="message" name="message" required aria-describedby="message-error" rows="5" placeholder="Décrivez votre projet ou posez votre question..."></textarea>
+                        <span id="message-error" class="error-message" role="alert"></span>
+                    </div>
+                    
+                    <button type="button" class="whatsapp-btn" aria-label="Envoyer le message sur WhatsApp">
+                        <span class="whatsapp-icon">📱</span>
+                        Envoyer sur WhatsApp
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 MARTINOS-DEV SITE WEB.</p>
+        <p>Site web développé avec passion ❤️</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "MARTINOS-DEV",
+        "jobTitle": "Développeur Web ",
+        "description": "Développeur web passionné, spécialisé dans la création de sites web modernes et réactifs",
+        "email": "komimawulolohoudoga@gmail.com",
+        "telephone": "+22898131393",
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "Python", "Flask", "Django", "React", "Vue.js"],
+        "url": "",
+        "image": "./logo.jpg"
+    }
+    </script>
+</body>
+</html>
